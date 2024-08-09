@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.results img {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results img:hover {
+    border-color: #333;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.no-results {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+}
