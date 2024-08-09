@@ -14,20 +14,10 @@ body {
 
 .results {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+    flex-direction: column;
+    width: 40%;
 }
 
-.results img {
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.results img:hover {
-    border-color: #333;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
 
 .no-results {
     text-align: center;
